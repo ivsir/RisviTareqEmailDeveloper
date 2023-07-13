@@ -1,5 +1,3 @@
-/* Made by Yago Estévez (Twitter: @yagoestevez.com) */
-
 *,
 *::before,
 *::after,
@@ -499,11 +497,11 @@ a:active {
 }
 
 #welcome-section .container h1 {
-  font-size: 4rem;
+  font-size: 3.25rem;
   font-weight: normal;
   font-style: italic;
   color: #fafafa;
-  line-height: 3rem;
+  line-height: 2.5rem;
 }
 
 #welcome-section .container h1 .line:first-child {
@@ -557,6 +555,7 @@ a:active {
 
 .line {
   display: block;
+  margin-bottom: 1rem;
 }
 
 .color {

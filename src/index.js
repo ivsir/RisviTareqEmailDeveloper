@@ -50,10 +50,12 @@ const Nav = (props) => {
     <React.Fragment>
       <nav id="navbar">
         <div className="nav-wrapper">
-          <a href="https://www.linkedin.com/in/risvi-tareq-1546621ab/"><p className="brand">
-            Risvi
-            <strong> Tareq</strong>
-          </p></a>
+          <a href="https://www.linkedin.com/in/risvi-tareq-1546621ab/">
+            <p className="brand">
+              Risvi
+              <strong> Tareq</strong>
+            </p>
+          </a>
           <a
             onClick={props.toggleMenu}
             className={
@@ -81,9 +83,13 @@ const Header = (props) => {
       <div className="container">
         <h1>
           {/* <span className="line">I do</span> */}
-          <span className="line">Full Stack </span>
+          <span className="line">HTML Email</span>
           <span className="line">
-            <span className="color">Web-Developer</span>
+            <span className="color">Marketing</span>
+          </span>
+          <span className="line">& Full Stack </span>
+          <span className="line">
+            <span className="color">Developer</span>
           </span>
         </h1>
         <div className="buttons">
@@ -112,15 +118,14 @@ const About = (props) => {
           </div>
           <div className="desc full">
             <h4 className="subtitle">My name is Risvi Tareq.</h4>
-            <p>I am a Full Stack Developer based in San Diego, California.</p>
+            <p>
+              I am an HTML email & Full Stack Developer ready to relocate to any
+              area.
+            </p>
             <p>
               I am currently the webmaster for Clear Blue Sea, a non-profit
-              organization. I also produced music profesionally. I have amassed
-              over 10,000,000 streams collectively through all the songs I had
-              produced. I have marketed my beats on the internet as a side
-              hustle and make money from music royalties. I get bored of making
-              music sometimes, so I looked to web development to apply my
-              creativity in a more challenging avenue. videos on YouTube.
+              organization. I also produced music and sell instrumentals profesionally. I have amassed
+              over 10,000,000 streams collectively through promotion
             </p>
           </div>
           <div className="title">
@@ -130,12 +135,7 @@ const About = (props) => {
           <div className="desc">
             <h4 className="subtitle">Hard Skills</h4>
             <ul className="hard-skills">
-              <li>
-                convert eFiles in adherence to the IRS XML Standardization rules
-              </li>
-              <li>
-                understanding of class words, class word abbreviations and complexTypes for standardized XML elements
-              </li>
+              <li>HTML Email Development</li>
               <li>Full-Stack Websites</li>
               <li>Wordpress Websites</li>
               <li>REST APIs</li>
@@ -148,7 +148,6 @@ const About = (props) => {
             <ul className="tech-stack">
               <li>HTML/CSS</li>
               <li>Wordpress</li>
-              <li>XML</li>
               <li>VS Code</li>
               <li>Javascript</li>
               <li>MongoDB</li>
@@ -238,11 +237,43 @@ const Projects = (props) => {
           <h3 className="title">My Work</h3>
           <p className="separator" />
           <p className="subtitle">
-            Here's a list of my best personal projects and professional work I
+            Email Developer projects, full stack projects and professional work I
             have done.
           </p>
         </div>
         <div className="projects-wrapper">
+        <Project
+            title="Splice Email Template"
+            img={
+              "https://logowik.com/content/uploads/images/splice7428.jpg"
+            }
+            tech="HTML Photshop"
+            link="https://ivsir.github.io/splice-email-template/"
+            repo="https://github.com/ivsir/splice-email-template/blob/master/index.html"
+          >
+            <small>
+              Built with HTML Tables & Photoshop
+            </small>
+            <p>
+              This is a promotional email template I wrote in compliance with the limitations on HTML emails. I created the template using HTML tables, so it is compatible with gmail, apple mail and outlook.
+            </p>
+          </Project>
+          <Project
+            title="Sanrio Email Template"
+            img={
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR24lBX6mNC9xm5FE9KhnAAxHYRZl4nncrl7wEQfHuF4lnjZ-FimeNUgPdHw95ezmDYa2U&usqp=CAU"
+            }
+            tech="HTML Photshop"
+            link="https://ivsir.github.io/Sanrio-Email-Template/"
+            repo="https://github.com/ivsir/Sanrio-Email-Template/blob/master/index.html"
+          >
+            <small>
+              Built with HTML Tables
+            </small>
+            <p>
+              This is a promotional email template I recreated for Sanrio in compliance with the limitations on HTML emails. I created the template using HTML tables, so it is compatible with gmail, apple mail and outlook.
+            </p>
+          </Project>
           <Project
             title="CodeCollab"
             img={
@@ -253,7 +284,7 @@ const Projects = (props) => {
             repo="https://github.com/DallasSybrowsky/CodeCollab"
           >
             <small>
-              Built using MongoDB, GraphQL, React, NodeJS and Express
+              Built with MongoDB, GraphQL, React, NodeJS and Express
             </small>
             <p>
               This is a full-stack website my cohorts and I had built by
@@ -273,11 +304,12 @@ const Projects = (props) => {
             link="https://github.com/ivsir/XMLTaxProjects"
             repo="https://github.com/ivsir/XMLTaxProjects"
           >
-            <small>
-              Built using Adobe Acrobat, XML, VS Code and Git
-            </small>
+            <small>Built with Adobe Acrobat, XML, VS Code and Git</small>
             <p>
-              I converted a filled out 1099-R tax form and W2 Form in compliance with the IRS XML eFile Standardization. I used the proper abbreviations for the classes and referred to the IRS schema from the US Treasury.
+              I converted a filled out 1099-R tax form and W2 Form in compliance
+              with the IRS XML eFile Standardization. I used the proper
+              abbreviations for the classes and referred to the IRS schema from
+              the US Treasury.
             </p>
           </Project>
           <Project
@@ -289,7 +321,7 @@ const Projects = (props) => {
             link="https://dev.clearbluesea.org/"
             repo="https://dev.clearbluesea.org/"
           >
-            <small>Built using Wordpress</small>
+            <small>Built with Wordpress</small>
             <p>
               I was responsible for the design and development of the full
               website. This website was intended to inform the public on issues
@@ -307,7 +339,7 @@ const Projects = (props) => {
             repo="https://github.com/DallasSybrowsky/Bibliomania"
           >
             <small>
-              Built using Node, Express, Handlebars, MySQL & Sequelize ORM, and
+              Built with Node, Express, Handlebars, MySQL & Sequelize ORM, and
               a third-party API called openlibrary.
             </small>
             <p>
@@ -333,7 +365,7 @@ const Projects = (props) => {
             link="https://ivsir.github.io/Power-Quiz/"
             repo="https://github.com/ivsir/Power-Quiz"
           >
-            <small>Built using HTML, CSS and Vanilla Javascript</small>
+            <small>Built with HTML, CSS and Vanilla Javascript</small>
             <p>
               My first Javascript quiz application that allows users to save
               their scores and compare their score to other users. The scores
@@ -350,7 +382,7 @@ const Projects = (props) => {
             repo="https://github.com/agarfar/a-night-in"
           >
             <small>
-              Built using JavaScript, HTML, CSS and a third-party API
+              Built with JavaScript, HTML, CSS and a third-party API
             </small>
             <p>
               A Javascript app that utilizes a third-party API to generate
@@ -396,7 +428,6 @@ const Contact = (props) => {
     </section>
   );
 };
-
 
 /***********************
     Social Links Component
