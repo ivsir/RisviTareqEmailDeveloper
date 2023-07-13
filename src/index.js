@@ -128,8 +128,8 @@ const About = (props) => {
               profesionally. I have amassed over 10,000,000 streams collectively
               through self-promotion and social media marketing. I have sold over hundreds of beats and music kits on the internet. I networked and
               collaborated with well known producers and rappers to successfully
-              release hit songs. A song I have co-produced, "3AM In Oakland by
-              Karri" is currently trending on Instagram reels and had amassed
+              release hit songs. A song I had co-produced, "3AM In Oakland by
+              Karri" is currently trending on Instagram reels and has amassed
               over 5,000,000 plays on Spotify alone.
             </p>
           </div>
