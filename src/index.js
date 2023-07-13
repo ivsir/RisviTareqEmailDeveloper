@@ -119,13 +119,18 @@ const About = (props) => {
           <div className="desc full">
             <h4 className="subtitle">My name is Risvi Tareq.</h4>
             <p>
-              I am an HTML email & Full Stack Developer ready to relocate to any
+              I am an HTML Email Marketer & Full Stack Developer ready to relocate to any
               area.
             </p>
             <p>
               I am currently the webmaster for Clear Blue Sea, a non-profit
-              organization. I also produced music and sell instrumentals profesionally. I have amassed
-              over 10,000,000 streams collectively through promotion
+              organization. I also produce music and sell instrumentals
+              profesionally. I have amassed over 10,000,000 streams collectively
+              through self-promotion and social media marketing. I have sold over hundreds of beats and music kits on the internet. I networked and
+              collaborated with well known producers and rappers to successfully
+              release hit songs. A song I have co-produced, "3AM In Oakland by
+              Karri" is currently trending on Instagram reels and had amassed
+              over 5,000,000 plays on Spotify alone.
             </p>
           </div>
           <div className="title">
@@ -136,6 +141,7 @@ const About = (props) => {
             <h4 className="subtitle">Hard Skills</h4>
             <ul className="hard-skills">
               <li>HTML Email Development</li>
+              <li>Social Media and Email Marketing</li>
               <li>Full-Stack Websites</li>
               <li>Wordpress Websites</li>
               <li>REST APIs</li>
@@ -237,25 +243,23 @@ const Projects = (props) => {
           <h3 className="title">My Work</h3>
           <p className="separator" />
           <p className="subtitle">
-            Email Developer projects, full stack projects and professional work I
-            have done.
+            Email Developer projects, full stack projects and professional work
+            I have done.
           </p>
         </div>
         <div className="projects-wrapper">
-        <Project
+          <Project
             title="Splice Email Template"
-            img={
-              "https://logowik.com/content/uploads/images/splice7428.jpg"
-            }
+            img={"https://logowik.com/content/uploads/images/splice7428.jpg"}
             tech="HTML Photshop"
             link="https://ivsir.github.io/splice-email-template/"
             repo="https://github.com/ivsir/splice-email-template/blob/master/index.html"
           >
-            <small>
-              Built with HTML Tables & Photoshop
-            </small>
+            <small>Built with HTML Tables & Photoshop</small>
             <p>
-              This is a promotional email template I wrote in compliance with the limitations on HTML emails. I created the template using HTML tables, so it is compatible with gmail, apple mail and outlook.
+              This is a promotional email template I wrote in compliance with
+              the limitations on HTML emails. I created the template using HTML
+              tables, so it is compatible with gmail, apple mail and outlook.
             </p>
           </Project>
           <Project
@@ -267,11 +271,12 @@ const Projects = (props) => {
             link="https://ivsir.github.io/Sanrio-Email-Template/"
             repo="https://github.com/ivsir/Sanrio-Email-Template/blob/master/index.html"
           >
-            <small>
-              Built with HTML Tables
-            </small>
+            <small>Built with HTML Tables</small>
             <p>
-              This is a promotional email template I recreated for Sanrio in compliance with the limitations on HTML emails. I created the template using HTML tables, so it is compatible with gmail, apple mail and outlook.
+              This is a promotional email template I recreated for Sanrio in
+              compliance with the limitations on HTML emails. I created the
+              template using HTML tables, so it is compatible with gmail, apple
+              mail and outlook.
             </p>
           </Project>
           <Project
@@ -339,8 +344,8 @@ const Projects = (props) => {
             repo="https://github.com/DallasSybrowsky/Bibliomania"
           >
             <small>
-              Built with Node, Express, Handlebars, MySQL & Sequelize ORM, and
-              a third-party API called openlibrary.
+              Built with Node, Express, Handlebars, MySQL & Sequelize ORM, and a
+              third-party API called openlibrary.
             </small>
             <p>
               Bibliomania is a full-stack website created by my cohorts and I.

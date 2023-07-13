@@ -1,4 +1,4 @@
-# React-Portfolio
+# Email Developer and Full Stack Portfolio
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
