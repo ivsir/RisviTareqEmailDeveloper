@@ -13,10 +13,9 @@ This is a personalized portfolio created using React and CSS. It is in the style
 </nav>
 
 ## How to Use this Project
-<a href="https://ivsir.github.io/RisviTareqPortfolio/">This is the link to my WebPage</a>
-<img src="src/Images/portfolio.gif">
+<a href="https://ivsir.github.io/RisviTareqEmailDeveloper/">This is the link to my WebPage</a>
 <p>This is the landing page</p>
-<img src="src/Images/front page.png">
+<img src="src/Images/HTML.png">
 <p>This is the menu</p>
 <img src="src/Images/menu.png">
 <p>This is the about me section.</p>
